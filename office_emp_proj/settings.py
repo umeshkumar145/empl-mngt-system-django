@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 
-ALLOWED_HOSTS = ['https://empl-mngt-system-django.onrender.com']
+ALLOWED_HOSTS = ['https://empl-mngt-system-django.onrender.com', '127.0.0.1', 'localhost']
 
 
 

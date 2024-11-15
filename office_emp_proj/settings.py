@@ -20,7 +20,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 
-ALLOWED_HOSTS = ['empl-mngt-system-django.onrender.com']
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'empl-mngt-system-django.onrender.com',
+]
+
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.

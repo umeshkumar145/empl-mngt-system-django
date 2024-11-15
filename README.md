@@ -1,1 +1,0 @@
-# empl-mngt-system-django

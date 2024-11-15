@@ -26,6 +26,7 @@ ALLOWED_HOSTS = [
     'empl-mngt-system-django.onrender.com',
 ]
 
+CSRF_TRUSTED_ORIGINS = ['https://empl-mngt-system-django.onrender.com']
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.

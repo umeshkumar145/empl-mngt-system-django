@@ -25,6 +25,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     'empl-mngt-system-django.onrender.com',
 ]
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '').split(',')
 
 CSRF_TRUSTED_ORIGINS = ['https://empl-mngt-system-django.onrender.com']
 
